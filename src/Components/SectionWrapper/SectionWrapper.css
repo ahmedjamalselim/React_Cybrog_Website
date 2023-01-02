@@ -8,3 +8,8 @@
   -o-border-radius: var(--border-radius-primary);
   margin-top: var(--margin-primary);
 }
+@media (max-width:767px){
+  .section-wrapper{
+    padding: 35px;
+  }
+}
