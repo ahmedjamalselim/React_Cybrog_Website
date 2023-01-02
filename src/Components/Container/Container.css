@@ -1,0 +1,11 @@
+.main-container {
+  padding: var(--padding-primary) !important;
+  background-color: var(--color-dark);
+  border-radius: var(--border-radius-primary);
+  -webkit-border-radius: var(--border-radius-primary);
+  -moz-border-radius: var(--border-radius-primary);
+  -ms-border-radius: var(--border-radius-primary);
+  -o-border-radius: var(--border-radius-primary);
+  margin-bottom: var(--margin-primary);
+  color: var(--color-light);
+}

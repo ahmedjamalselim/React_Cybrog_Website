@@ -1,0 +1,6 @@
+.cybrg-navbar{
+    min-height: 100px;
+}
+.nav-internal ul .nav-link:hover{
+    color:var(--color-primary) !important;
+}

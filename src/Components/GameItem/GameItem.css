@@ -1,0 +1,84 @@
+.game-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: calc(var(--margin-primary));
+  border-bottom: 1px solid #9e9e9e1f;
+  padding-bottom: calc(var(--padding-primary) / 2);
+}
+.game-image-holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .game-holder,
+  .game-image-holder {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.game-image-holder .image {
+  margin-right: calc(var(--margin-primary) / 2);
+}
+@media (max-width: 991px) {
+  .game-image-holder .image {
+    margin: 0 0 15px;
+  }
+}
+.game-image-holder .image img {
+  border-radius: var(--border-radius-primary);
+  -webkit-border-radius: var(--border-radius-primary);
+  -moz-border-radius: var(--border-radius-primary);
+  -ms-border-radius: var(--border-radius-primary);
+  -o-border-radius: var(--border-radius-primary);
+}
+.game-holder .game-image-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+@media (max-width: 991px) {
+  .game-holder .game-image-info {
+    flex-direction: row;
+    margin: 0 0 15px;
+  }
+}
+.game-holder .game-image-info span:first-of-type,
+.game-holder .game-customer-info span:first-of-type {
+  font-size: 16px;
+  font-weight: var(--font-weight-bold);
+}
+@media (max-width: 991px) {
+  .game-holder .game-image-info span:first-of-type,
+  .game-holder .game-customer-info span:first-of-type {
+  margin-right: 5px;
+  }
+}
+.game-holder .game-image-info span:last-of-type,
+.game-holder .game-customer-info span:last-of-type {
+  color: #777;
+}
+.game-holder .game-customer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+@media (max-width: 991px) {
+  .game-holder .game-customer-info {
+    flex-direction: row;
+    margin: 0 0 15px;
+  }
+}
+.game-holder .download-button {
+  background-color: var(--color-primary);
+}
+@media (max-width: 991px) {
+  .game-holder .download-button{
+margin-top: 15px;
+  }
+}
+.game-holder .download-button {
+  border-color: var(--color-primary);
+  outline-color: var(--color-primary);
+}

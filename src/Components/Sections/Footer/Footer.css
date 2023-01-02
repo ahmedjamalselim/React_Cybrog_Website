@@ -1,0 +1,12 @@
+.footer {
+  background-color: var(--color-darker);
+  color: var(--color-light);
+  text-align: center;
+}
+.footer p {
+  display: block;
+  width: 100%;
+}
+.footer p span{
+    color: var(--color-primary);
+}

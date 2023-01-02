@@ -1,0 +1,36 @@
+.hero-main {
+  background-image: url(../../../assets//images/banner-bg.jpg);
+  background-size: cover;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+  border-radius: var(--border-radius-primary);
+  -webkit-border-radius: var(--border-radius-primary);
+  -moz-border-radius: var(--border-radius-primary);
+  -ms-border-radius: var(--border-radius-primary);
+  -o-border-radius: var(--border-radius-primary);
+  padding: 50px;
+  margin-top: var(--margin-primary);
+}
+.hero-text {
+  max-width: 500px;
+}
+.hero-title {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: var(--margin-primary);
+  font-weight: var(--font-weight-bold);
+}
+.hero-title span {
+  color: var(--color-primary);
+}
+.hero-subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 25x;
+  color: #fff;
+}
+.clicky-button {
+  background-color: var(--color-primary) !important;
+  outline: none !important;
+  border: none !important;
+}
