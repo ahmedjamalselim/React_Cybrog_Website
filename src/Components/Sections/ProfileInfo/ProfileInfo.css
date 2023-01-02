@@ -110,3 +110,8 @@
 .profile-contributions ul li span {
   color: var(--color-primary);
 }
+@media (max-width: 991px) {
+  .profile-contributions {
+    width: 100%;
+  }
+}

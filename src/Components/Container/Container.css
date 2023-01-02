@@ -9,3 +9,8 @@
   margin-bottom: var(--margin-primary);
   color: var(--color-light);
 }
+@media (max-width:767px) {
+  .main-container{
+    padding: 20px;
+  }
+}
