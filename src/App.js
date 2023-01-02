@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <Router>
+        <Router basename={'/React_Cybrog_Website'}>
             <Header />
             <Container>
                 <Routes>
