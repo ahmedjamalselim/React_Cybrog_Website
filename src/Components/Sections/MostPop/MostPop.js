@@ -1,3 +1,5 @@
+/** @format */
+
 import { Component } from "react";
 import "./MostPop.css";
 import MostPopImages from "../../../Data/MostPopImages/MostPopImages";

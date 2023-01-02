@@ -6,7 +6,7 @@ class ProfileInfo extends Component {
     render(){
         return(
             <div className="profile-wrapper">
-                <div className="image"><img src="/images/profile.jpg" alt="profile pic" /></div>
+                <div className="image"><img src="images/profile.jpg" alt="profile pic" /></div>
                 <div className="profile-info">
                     <button className="account-status btn btn-primary rounded-pill">Offline</button>
                     <p className="profile-name">Ahmed Jamal Selim</p>
