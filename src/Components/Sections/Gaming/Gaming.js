@@ -1,3 +1,5 @@
+/** @format */
+
 import Gaming from "../../../Data/Gaming/Gaming";
 import { Component } from "react";
 import { MainHeading, SectionWrapper, GameItem } from "../../index";
@@ -21,7 +23,7 @@ class GamingSection extends Component {
           status={game.status}
           src={game.src}
           key={game.id}
-          date = {game.date}
+          date={game.date}
         />
       );
     });
@@ -33,7 +35,7 @@ class GamingSection extends Component {
       <SectionWrapper>
         <MainHeading title="Your Gaming" colored="Library" />
         <div className="gaming-container">
-          {this.mapping(this.state.gaming)}{" "}
+          {this.mapping(this.state.gaming)}
         </div>
       </SectionWrapper>
     );

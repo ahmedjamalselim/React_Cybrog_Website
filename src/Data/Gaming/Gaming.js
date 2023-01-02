@@ -1,7 +1,7 @@
 const Gaming = [
   {
     id: "game-1",
-    src: "/images/game-01.jpg",
+    src: "images/game-01.jpg",
     name: "Fortnite",
     owner: "Sandbox",
     date: "24-10-2022",
@@ -10,7 +10,7 @@ const Gaming = [
   },
   {
     id: "game-2",
-    src: "/images/game-02.jpg",
+    src: "images/game-02.jpg",
     name: "PubG",
     owner: "Battle S",
     date: "15-07-2030",
@@ -19,7 +19,7 @@ const Gaming = [
   },
   {
     id: "game-3",
-    src: "/images/game-03.jpg",
+    src: "images/game-03.jpg",
     name: "Dota2",
     owner: "Stream-X",
     date: "14-02-2032",
