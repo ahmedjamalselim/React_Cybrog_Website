@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React_Cybrog_Website/static/css/main.f28cb444.css",
+    "main.js": "/React_Cybrog_Website/static/js/main.fc045593.js",
+    "static/media/banner-bg.jpg": "/React_Cybrog_Website/static/media/banner-bg.f41cb78948354a14694e.jpg",
+    "index.html": "/React_Cybrog_Website/index.html",
+    "main.f28cb444.css.map": "/React_Cybrog_Website/static/css/main.f28cb444.css.map",
+    "main.fc045593.js.map": "/React_Cybrog_Website/static/js/main.fc045593.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f28cb444.css",
+    "static/js/main.fc045593.js"
+  ]
+}
